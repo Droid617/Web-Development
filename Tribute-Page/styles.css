@@ -1,0 +1,83 @@
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+body {
+  margin: 2% 0.85%;
+  background-color: rgb(230, 230, 230)
+}
+
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#main {
+  margin: 0;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+h1, h2 {
+  padding-top: 35px;
+}
+
+#img-div {
+  width: 92%;
+  min-width: max(200px, 94vw);
+  background-color: white;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#image {
+  width: 85%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 2% 7.5% 0 7.5%;
+}
+
+#img-caption {
+  text-align: center;
+  padding: 2% 10%;
+}
+
+#tribute-info {
+  margin: 0;
+  padding: 20px 0;
+}
+
+#tribute-info ul{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 35px auto;
+}
+
+#tribute-info ul > li{
+  margin-top: 1.5rem;
+}
+
+.citata {
+  width: 50%;
+  text-align: left;
+  margin: 0 25%;
+}
+
+.wiki {
+  margin: 1% 10%;
+}
+
+#tribute-link {
+  text-decoration: none;
+}
+
+.bold {
+  font-weight: 700;
+}
