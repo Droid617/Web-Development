@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">BugBounty Survey Form</h1>
+    <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name <input id="name" name="name" type="text" placeholder="Enter your name" required/></label>
+        <label id="email-label"  for="email">Email <input id="email" name="email" type="email" placeholder="Enter your Email" required/></label>
+        <label id="number-label" for="number">Age
+(optional) <input id="number" name="number" type="number" min="10" max="99" placeholder="Age"/></label>
+        <label>Which option best describes your current role? 
+          <select id="dropdown">
+            <option>Select current role</option>
+            <option>Student</option>
+            <option>Full Time Job</option>
+            <option>Full Time Learner</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <p> Would you recommend BugBounty to a friend? </p>
+        <label id="of-course-label" for="of-course" class="no-margin-top"><input id="of-course" name="recommend" type="radio" value="Of course"> Of course</label>
+        <label for="maybe" class="no-margin-top"><input id="maybe" name="recommend" type="radio" value="Maybe"> Maybe</label>
+        <label for="not-sure" class="no-margin-top"><input id="not-sure" name="recommend" type="radio" value="Not sure"> Not sure</label>
+        <label>What is your favorite feature of BugBounty? 
+          <select>
+            <option>Select an option</option>
+            <option>BugBounty machines</option>
+            <option>CTF</option>
+            <option>Forum</option>
+          </select>
+        </label>
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <label for="improve-1" class="no-margin-top"><input id="improve-1" type="checkbox" name="improve-1" value="1"> Forum</label>
+        <label for="improve-2" class="no-margin-top"><input id="improve-2" type="checkbox" name="improve-2" value="2"> Youtube tutorials</label>
+        <label for="improve-3" class="no-margin-top"><input id="improve-3" type="checkbox" name="improve-3" value="3"> Special courses</label>
+        <label for="improve-4" class="no-margin-top"><input id="improve-4" type="checkbox" name="improve-4" value="4"> CTF Challenges</label>
+        <label class="comments">Comments or suggestions? 
+          <textarea rows="5" cols="35" placeholder="Enter your comment here..."></textarea>
+        </label>
+        <input id="submit" type="submit" value="Submit">
+      </fieldset>
+      
+    </form>
+  </body>
+</html>
