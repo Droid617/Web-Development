@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ Docs</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header class="nav-header">C++ Documentation</header>
+      <ul>
+        <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+        <li><a href="#What_you_should_already_know" class="nav-link">What you should already know</a></li>
+        <li><a href="#C++_and_C" class="nav-link">C++ and C</a></li>
+        <li><a href="#Hello_world" class="nav-link">Hello world</a></li>
+        <li><a href="#Variables" class="nav-link">Variables</a></li>
+        <li><a href="#Declaring_variables" class="nav-link">Declaring variables</a></li>
+        <li><a href="#Variable_scope" class="nav-link">Variable scope</a></li>
+        <li><a href="#Global_variables" class="nav-link">Global variables</a></li>
+        <li><a href="#Constants" class="nav-link">Constants</a></li>
+        <li><a href="#Data_types" class="nav-link">Data types</a></li>
+        <li><a href="#if_else_statement" class="nav-link">if else statement</a></li>
+        <li><a href="#while_statement" class="nav-link">while statement</a></li>
+        <li><a href="#Function_declarations" class="nav-link">Function declarations</a></li>
+        <li><a href="#Reference" class="nav-link">Reference</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section id="Introduction" class="main-section">
+        <header>
+          Introduction
+        </header>
+        <p>C++ is a powerful object-oriented programming language that is widely used for developing applications and system software. It is an extension of the C programming language and provides additional features such as classes and objects. This documentation will introduce you to the fundamental concepts and syntax of C++, helping you get started with programming in this language.</p>
+      </section>
+      <section id="What_you_should_already_know" class="main-section">
+        <header>
+          What you should already know
+        </header>
+        <p>Before diving into C++, it is beneficial to have some prior knowledge in the following areas:</p>
+        <ul>
+          <li>Basic understanding of programming concepts.</li>
+          <li>Familiarity with the C programming language is advantageous since C++ is an extension of C.</li>
+        </ul>
+        <p>However, it is not mandatory as we will cover the necessary concepts.</p>
+      </section>
+      <section id="C++_and_C" class="main-section">
+        <header>
+          C++ and C
+        </header>
+        <p>C++ is closely related to the C programming language. It includes the entire C standard library, allowing C code to be used in C++ programs. Additionally, C++ introduces new features, such as classes and object-oriented programming, which are not present in C. This combination of compatibility and added functionality makes C++ a versatile language for both C developers and those new to programming.</p>
+      </section>
+      <section id="Hello_world" class="main-section">
+        <header>
+          Hello world
+        </header>
+        <p>The "Hello world" program is a traditional starting point for learning programming languages. It serves as a simple demonstration of how to output text to the console. In C++, the "Hello world" program can be written as follows:</p>
+        <code>
+          int main() {<br />
+            std::cout << "Hello, World!" << std::endl;<br />
+            return 0;<br />
+          }
+        </code>
+        <p>This code requires including input/otput library like below:</p>
+        <code>
+          #include &#x3c;iostream&#x3e;
+        </code>
+      </section>
+      <section id="Variables" class="main-section">
+        <header>
+          Variables
+        </header>
+        <p>In C++, variables are used to store and manipulate data. They hold values of various types such as integers, floating-point numbers, characters and more. Before using a variable, it needs to be declared.</p>
+      </section>
+      <section id="Declaring_variables" class="main-section">
+        <header>
+          Declaring variables
+        </header>
+        <p>To declare a variable in C++, you need to specify its type followed by its name. For example:</p>
+        <code>
+          int age;<br />
+          double pi;<br />
+          char letter;<br />
+        </code>
+      </section>
+      <section id="Variable_scope" class="main-section">
+        <header>
+          Variable scope
+        </header>
+        <p>The scope of a variable determines where it is accessible within a program. In C++, variables can have different scopes, such as global scope, local scope, and block scope. Understanding variable scope is crucial for writing well-structured and bug-free programs.</p>
+      </section>
+      <section id="Global_variables" class="main-section">
+        <header>
+          Global variables
+        </header>
+        <p>Global variables are declared outside of any function and have a global scope. They can be accessed from any part of the program and have a lifetime throughout the program's execution. However, excessive use of global variables is generally discouraged due to potential issues with code maintainability and debugging.</p>
+      </section>
+      <section id="Constants" class="main-section">
+        <header>
+          Constants
+        </header>
+        <p>Constants are values that do not change during the execution of a program. In C++, constants can be declared using the `const` keyword. They provide a way to define fixed values that cannot be modified. You can see exmpale of creating constants below:</p>
+        <code>
+          const const_name = 5;
+        </code>
+      </section>
+      <section id="Data_types" class="main-section">
+        <header>
+          Data types
+        </header>
+        <p>C++ provides a wide range of data types, including primitive types such as integers, floating-point numbers, and characters, as well as more complex types such as arrays, structures, and classes. Understanding different data types and their limitations is essential when working with variables and performing operations on them. Here is an array of chars:</p>
+        <code>
+          char book_author[] {'S', 't', 'e', 'p', 'h', 'e', 'n', ' ', 'K', 'i', 'n', 'g'};
+        </code>
+      </section>
+      <section id="if_else_statement" class="main-section">
+        <header>
+          if else statement
+        </header>
+        <p>The if else statement in C++ allows you to execute different blocks of code depending on the evaluation of a condition. It provides a way to make decisions and control the flow of your program based on certain criteria.</p>
+      </section>
+      <section id="while_statement" class="main-section">
+        <header>
+          while statement
+        </header>
+        <p>The while statement in C++ allows you to repeatedly execute a block of code as long as a condition remains true. It provides a mechanism for looping and iterating until a particular condition is no longer met.</p>
+      </section>
+      <section id="Function_declarations" class="main-section">
+        <header>
+          Function declarations
+        </header>
+        <p>Functions in C++ enable the encapsulation of a group of statements into a reusable block of code. Function declarations define:</p>
+          <ul>
+            <li>name</li>
+            <li>return type</li>
+            <li>parameters</li>
+          </ul><p>It allows function to be called from other parts of the program.</p>
+      </section>
+      <section id="Reference" class="main-section">
+        <header>
+          Reference
+        </header>
+        <p>All the documentation in this page is taken from <a href="https://cplusplus.com/" target="_blank">cplusplus.com</a></p>
+      </section>
+    </main>
+  </body>
+</html>
