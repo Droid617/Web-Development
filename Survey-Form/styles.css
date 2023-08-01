@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0 auto;
+  background: linear-gradient(hsla(240, 50%, 50%, 50%), hsla(240, 50%, 50%, 50%)), url(https://topobrazovanie.ru/wp-content/uploads/2019/02/158242774512_13-11-2018_orig2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+h1 {
+  margin: 60px auto 10px auto;
+  text-align: center;
+}
+
+p {
+  margin: 10px auto;
+  text-align: center;
+}
+
+form {
+  width: 60%;
+  max-width: 720px;
+  min-width: 300px;
+  margin: 1.5em auto 0 auto;
+}
+
+fieldset {
+  font-size: 16px;
+  font-family: Georgia, serif;
+  background-color: hsla(240, 50%, 10%, 80%);
+  border: none;
+  padding: 1em 2em;
+}
+
+fieldset p {
+  text-align: left;
+}
+
+input, select {
+  width: 100%;
+  height: 2rem;
+  margin-top: 0.5em;
+  border: none;
+}
+
+input[type="radio"] {
+  width: unset;
+  height: 1.5em;
+  margin-top: 0.1em;
+  vertical-align: bottom;
+  
+}
+
+input[type="checkbox"]{
+  width: unset;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  height: 3em;
+  margin: 1em auto;
+  color: white;
+  background-color: hsl(150, 100%, 35%);
+  
+}
+
+label {
+  display: block;
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.no-margin-top {
+  margin-top: 0.25em;
+  margin-bottom: 0;
+}
+
+.comments textarea {
+  width: 100%;
+  min-height: 5rem;
+  display: block;
+  margin-top: 0.5em;
+  resize: vertical;
+}
